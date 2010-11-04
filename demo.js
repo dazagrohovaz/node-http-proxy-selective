@@ -12,7 +12,7 @@ http.createServer(function(req, res) {
 
 selective.createServer({
   filter: {
-    "192.168.24.31:8000": {
+    "localhost:8000": {
       style: "css"
     }
   },
