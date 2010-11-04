@@ -1,0 +1,19 @@
+{
+  "name": "http-proxy-selective",
+  "description": "http proxy also serves static files",
+  "version": "0.1.0",
+  "author": "zentooo <zentoooo@gmail.com>",
+  "repository": {
+      "type": "git",
+      "url": "http://github.com/zentooo/node-http-proxy-selective.git"
+  },
+  "keywords": ["reverse", "proxy", "http", "static"],
+  "dependencies": {
+    "colors": ">= 0.3.0",
+    "http-proxy": ">= 0.3.0",
+    "node-static": ">= 0.5.3",
+  },
+  "main": "./lib/node-http-proxy-selective",
+  "scripts": { "test": "vows" },
+  "engines": { "node": ">= 0.3.0" }
+}
