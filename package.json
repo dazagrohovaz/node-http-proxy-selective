@@ -13,7 +13,7 @@
     "http-proxy": ">= 0.3.0",
     "node-static": ">= 0.5.3"
   },
-  "main": "./lib/node-http-proxy-selective",
+  "main": "./lib/http-proxy-selective",
   "scripts": { "test": "vows" },
   "engines": { "node": ">= 0.3.0" }
 }

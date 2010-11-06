@@ -3,7 +3,7 @@ var vows = require('vows'),
     assert = require('assert'),
     http = require('http');
 
-var selectiveProxy = require('./../lib/node-http-proxy-selective');
+var selectiveProxy = require('./../lib/http-proxy-selective');
 
 vows.describe('trimslash').addBatch({
   'when double-slashed path given': {
