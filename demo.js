@@ -1,6 +1,6 @@
 var http = require("http"),
     static = require('node-static'),
-    selective = require('./lib/node-http-proxy-selective');
+    selective = require('./lib/http-proxy-selective');
 
 var file = new static.Server('./demofiles');
 
