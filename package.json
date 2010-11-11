@@ -1,7 +1,7 @@
 {
   "name": "http-proxy-selective",
   "description": "http proxy also serves static files",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "zentooo <zentoooo@gmail.com>",
   "repository": {
       "type": "git",
